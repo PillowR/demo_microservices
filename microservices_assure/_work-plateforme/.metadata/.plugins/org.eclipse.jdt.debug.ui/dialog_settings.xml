@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode&gt;=microservices_assure/\/Users\/cecile\/.m2\/repository\/org\/apache\/tomcat\/embed\/tomcat-embed-core\/9.0.56\/tomcat-embed-core-9.0.56.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.apache.tomcat.embed=/=/maven.artifactId=/tomcat-embed-core=/=/maven.version=/9.0.56=/=/maven.scope=/compile=/&amp;lt;org.apache.catalina.startup(Tomcat.class[Tomcat&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=microservices_assure/\/Users\/cecile\/.m2\/repository\/org\/jboss\/jandex\/2.4.2.Final\/jandex-2.4.2.Final.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.jboss=/=/maven.artifactId=/jandex=/=/maven.version=/2.4.2.Final=/=/maven.scope=/compile=/&amp;lt;org.jboss.jandex(Main.class[Main&lt;/infoNode&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="420"/>
+			<item key="DIALOG_Y_ORIGIN" value="117"/>
+			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		</section>
+	</section>
+</section>

@@ -1,0 +1,5 @@
+package com.urbanisationsi.microservices_assure.dao;
+
+public class AssureRepository extends CrudRepository<Assure, Integer> {
+
+}

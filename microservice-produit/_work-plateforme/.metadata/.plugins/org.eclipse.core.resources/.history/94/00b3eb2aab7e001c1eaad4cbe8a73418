@@ -1,0 +1,30 @@
+package com.urbanisationsi.microservices_produit.http.Controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+
+@RestController
+@RequestMapping(path = "/prod")
+public class ProduitController {
+
+	@Autowired
+	private ProduitRepository produitRepository;
+
+	/*
+	 * @GetMapping(path = "/Produit/numeroProduit/{numeroProduit}") public
+	 * List<Produit> rechercherProduitNumeroProduit(@PathVariable Long
+	 * numeroProduit) {
+	 * 
+	 * List<Produit> produits =
+	 * produitRepository.findByNumeroProduit(numeroProduit);
+	 * 
+	 * if (produits.isEmpty()) throw new
+	 * ProduitIntrouvableException("L'assure avec le numero " + numeroProduit +
+	 * " n'existe pas !");
+	 * 
+	 * return produits; }
+	 */
+
+}

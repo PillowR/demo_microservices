@@ -1,0 +1,23 @@
+package com.urbanisationsi.microservices_assure.dao;
+
+import java.util.Optional;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.urbanisationsi.microservices_assure.modele.Assure;
+
+public interface AssureRepository extends CrudRepository<Assure, Integer> {
+
+	void delete(Assure entity);
+
+	void deleteById(Integer id);
+
+	boolean existsById(Integer id);
+
+	Iterable<Assure> findAll();
+
+	Optional<Assure> findById(Integer id);
+
+	<S extends Assure> S save(S entity); // : sauve l'entité donnée.
+
+}

@@ -1,0 +1,16 @@
+package com.urbanisationsi.microservices_produit.http.Controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.urbanisationsi.microservices_produit.Dao.ProduitRepository;
+
+@RestController
+@RequestMapping(path="/prod")  
+public class ProduitController {
+	
+	@Autowired
+	private ProduitRepository produitRepository;
+
+}

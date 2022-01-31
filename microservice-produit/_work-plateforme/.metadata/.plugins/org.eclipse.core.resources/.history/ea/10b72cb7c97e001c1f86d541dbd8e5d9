@@ -1,0 +1,46 @@
+package com.urbanisationsi.microservices_contrat_mongodb.model;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.validation.constraints.NotNull;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+import lombok.experimental.FieldDefaults;
+
+@FieldDefaults(level=AccessLevel.PRIVATE)
+@Getter
+@Setter
+@EqualsAndHashCode(of= {"id", "numeroContrat"})
+@ToString(of= {"id", "numeroContrat", "dateDebut", "numeroProduit", "numeroAssure"})
+@Entity
+public class Contrat {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Integer id;
+
+	@JsonFormat(pattern = "yyyy-MM-dd")
+	private LocalDate dateDebut;
+
+	@NotNull
+	private Long numeroContrat;
+
+	@NotNull
+	private Long numeroAssure;
+
+	@NotNull
+	private Long numeroProduit;
+
+}

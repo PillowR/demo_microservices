@@ -1,0 +1,18 @@
+package com.urbanisationsi.microservices_assure.dao;
+
+import org.springframework.data.repository.Repository;
+
+public interface CrudRepository<T, ID> extends Repository<T, ID> {
+
+	void delete(T entity) // : supprime l'entité.
+
+	void deleteById(ID id) // : supprime l'entité avec l'id donné.
+
+	boolean existsById(ID id) // : retourne true si l'entité correspondant à l'id donné existe, false sinon.
+
+	Iterable<T> findAll() // : retourne toutes les instances du type T.
+
+	Optional<T> findById(ID id) // : retrouve l'entité par son id.
+
+	<S extends T> S save(S entity) // : sauve l'entité donnée.
+}

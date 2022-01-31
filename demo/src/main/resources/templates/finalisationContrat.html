@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>ClairPrev - PrevIT</title>
+<link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/4.0.0-2/css/bootstrap.min.css" />
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<h1 class="text-center mt-5">ClairPrev Prévoyance - Finaliser
+			Contrat</h1>
+		<div class="row">
+			<div class="col-md-12 mx-auto mt-5">
+				<!-- 				<p th:object="${contratAffecte}" th:text="${contratAffecte.numeroAssure}"> -->
+
+
+				<form th:action="@{|/finaliserContrat/${contrat.numeroAssure}|}"
+					th:object="${contrat}" method="GET">
+					<div class="form-group row align-items-center">
+						<label for="staticEmail" class="col-sm-2 col-form-label">Numéro
+							Assuré :</label>
+						<div class="col-sm-10">
+							<input type="text" readonly class="d-none"
+								id="staticEmail" th:text="*{numeroAssure}">
+						</div>
+					</div>
+					<div class="form-group row align-items-center">
+						<label for="staticEmail" class="col-sm-2 col-form-label">Numéro
+							Produit :</label>
+						<div class="col-sm-10">
+							<input type="text" readonly class="d-none"
+								id="staticEmail" th:text="*{numeroProduit}">
+						</div>
+					</div>
+					<div class="form-group row align-items-center">
+						<label for="staticEmail" class="col-sm-2 col-form-label">Numéro
+							Contrat :</label>
+						<div class="col-sm-10">
+							<input type="text" readonly class="d-none"
+								id="staticEmail" th:text="*{numeroContrat}">
+						</div>
+					</div>
+					<div class="form-group row align-items-center">
+						<label for="inputPassword" class="col-sm-2 col-form-label">Date
+							du début du contrat : </label>
+						<div class="col-sm-10">
+							<input type="password" class="form-control" id="inputPassword"
+								th:field="*{dateDebut}" placeholder="Date début">
+						</div>
+					</div>
+				</form>
+
+			</div>
+		</div>
+
+	</div>
+	<script type="text/javascript"
+		src="webjars/bootstrap/4.0.0-2/js/bootstrap.min.js"></script>
+</body>
+</html>

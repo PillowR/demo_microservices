@@ -1,0 +1,15 @@
+package com.urbanisationsi.microservices_produit.Dao;
+
+import java.util.List;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.urbanisationsi.microservices_produit.Model.Produit;
+
+@Repository
+public interface ProduitRepository extends CrudRepository<Produit, Integer> {
+
+	List<Produit> findByNumeroProduit(Long numeroProduit);
+
+}

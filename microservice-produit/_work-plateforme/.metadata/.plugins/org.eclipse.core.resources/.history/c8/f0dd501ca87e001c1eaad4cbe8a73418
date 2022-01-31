@@ -1,0 +1,5 @@
+package com.urbanisationsi.microservices_produit.http.Controller;
+
+public class ProduitController {
+
+}

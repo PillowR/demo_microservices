@@ -1,0 +1,16 @@
+package com.urbanisationsi.microservices_contrat;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+
+import com.urbanisationsi.microservices_contrat_mongodb.MicroservicesContratApplication;
+
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
+public class MicroservicesContratMongodbApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MicroservicesContratApplication.class, args);
+	}
+
+}

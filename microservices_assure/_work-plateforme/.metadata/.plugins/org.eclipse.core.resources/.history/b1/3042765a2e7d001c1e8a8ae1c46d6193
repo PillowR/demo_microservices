@@ -1,0 +1,44 @@
+package com.urbanisationsi.microservices_assure.modele;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Assure extends Personne {
+
+	private String dossierMedical;
+	private Long numeroAssure;
+
+	public String getDossierMedical() {
+		return dossierMedical;
+	}
+
+	public void setDossierMedical(String dossierMedical) {
+		this.dossierMedical = dossierMedical;
+	}
+
+	public Long getNumeroAssure() {
+		return numeroAssure;
+	}
+
+	public void setNumeroAssure(Long numeroAssure) {
+		this.numeroAssure = numeroAssure;
+	}
+
+	public Assure() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Assure(Integer id, String nom, String prenom, Long numeroPersonne, Date dateNaissance, Long numeroAssure,
+			String dossierMedical) {
+		super(id, nom, prenom, numeroPersonne, dateNaissance);
+		this.numeroAssure = numeroAssure;
+		this.dossierMedical = dossierMedical;
+	}
+
+	public Assure(Integer id, String nom, String prenom, Long numeroPersonne, Date dateNaissance) {
+		super(id, nom, prenom, numeroPersonne, dateNaissance);
+		// TODO Auto-generated constructor stub
+	}
+
+}

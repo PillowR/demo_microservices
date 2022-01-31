@@ -1,0 +1,7 @@
+package com.urbanisationsi.microservices_produit.Dao;
+
+import org.springframework.data.repository.CrudRepository;
+
+public class ProduitRepository extends CrudRepository<Produit, Integer> {
+
+}

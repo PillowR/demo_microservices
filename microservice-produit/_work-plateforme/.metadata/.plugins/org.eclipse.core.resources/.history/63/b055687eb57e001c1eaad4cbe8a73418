@@ -1,0 +1,21 @@
+package com.urbanisationsi.microservices_contrat.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.urbanisationsi.microservices_contrat.dao.ContratRepository;
+
+import io.swagger.annotations.Api;
+
+@Api(description = "API pour les opérations de CRUD pour les contrats")
+@RestController
+@RequestMapping(path = "/contrat")
+public class ContratController {
+
+	@Autowired
+	private ContratRepository contratRepository;
+	
+	
+
+}

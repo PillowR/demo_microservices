@@ -1,0 +1,5 @@
+package com.urbanisationsi.microservices_contrat;
+
+public class MicroservicesContratMongodbApplication {
+
+}

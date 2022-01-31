@@ -1,0 +1,5 @@
+package com.urbanisationsi.microservices_produit.Exception;
+
+public class ProduitIntrouvableException extends RuntimeException {
+
+}

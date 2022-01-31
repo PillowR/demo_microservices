@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="antlr.collections.List"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="com.urbanisationsi.microservices_produit.Dao.ProduitRepository"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="com.urbanisationsi.microservices_produit.Model.Produit"/>
+    <fullyQualifiedTypeName name="com.urbanisationsi.microservices_produit.dao.ProduitRepository"/>
+    <fullyQualifiedTypeName name="com.urbanisationsi.microservices_produit.Exception.ProduitIntrouvableException"/>
+    <fullyQualifiedTypeName name="springfox.documentation.swagger2.annotations.EnableSwagger2"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
+    <fullyQualifiedTypeName name="com.urbanisationsi.microservices_contrat.model.Contrat"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.urbanisationsi.microservices_contrat.dao.ContratRepository"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="com.urbanisationsi.microservices_contrat.exceptions.ContratIntrouvableException"/>
+    <fullyQualifiedTypeName name="lombok.experimental.FieldDefaults"/>
+    <fullyQualifiedTypeName name="lombok.AccessLevel"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.EqualsAndHashCode"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
+    <fullyQualifiedTypeName name="org.springframework.data.mongodb.core.mapping.Document"/>
+    <fullyQualifiedTypeName name="org.springframework.data.mongodb.core.index.IndexDirection"/>
+    <fullyQualifiedTypeName name="org.springframework.data.mongodb.core.index.Indexed"/>
+    <fullyQualifiedTypeName name="org.springframework.data.mongodb.repository.MongoRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration"/>
+    <fullyQualifiedTypeName name="com.urbanisationsi.microservices_contrat_mongodb.MicroservicesContratApplication"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ser.FilterProvider"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ser.impl.SimpleBeanPropertyFilter"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider"/>
+    <fullyQualifiedTypeName name="org.springframework.http.converter.json.MappingJacksonValue"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,13 @@
+package com.urbanisationsi.microservices_produit.Model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Produit {
+	
+	private Integer id;
+	private String libelle;
+	private Long numeroProduit;
+	
+
+}

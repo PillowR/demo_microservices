@@ -1,0 +1,5 @@
+package com.urbanisationsi.microservices_assure.configuration;
+
+public class SwaggerConfig {
+
+}

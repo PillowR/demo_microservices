@@ -1,0 +1,5 @@
+package com.urbanisationsi.microservices_produit.Dao;
+
+public class ProduitRepository {
+
+}

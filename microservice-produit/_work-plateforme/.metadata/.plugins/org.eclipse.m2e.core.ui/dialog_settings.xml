@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/cecile/Documents/Eclipse/microservices_contrat_mongodb"/>
+			<item value="/Users/cecile/Documents/Eclipse/microservices_contrat"/>
+			<item value="/Users/cecile/Downloads/_proj-J2-Maven/microservices_assure"/>
+			<item value="/Users/cecile/Documents/Eclipse/microservice-produit/_proj-plateforme/microservices_produit"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

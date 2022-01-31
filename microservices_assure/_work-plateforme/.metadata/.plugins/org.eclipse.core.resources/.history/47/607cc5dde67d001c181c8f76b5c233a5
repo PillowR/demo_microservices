@@ -1,0 +1,10 @@
+package com.urbanisationsi.microservices_assure.exceptions;
+
+public class AssureIntrouvableExcpetion extends RuntimeException {
+	
+	public AssureIntrouvableExcpetion(String msg) {
+		super(msg);
+	}
+	
+
+}
